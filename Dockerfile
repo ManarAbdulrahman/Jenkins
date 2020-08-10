@@ -1,5 +1,5 @@
 from alpine
-copy manifest.xt
+copy manifest.txt /
 run cat manifest.txt
 cmd ["cat", "/manifest.txt"]
 
